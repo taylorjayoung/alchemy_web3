@@ -1,0 +1,1 @@
+{"id":0,"jsonrpc":"2.0","error":{"code":-32603,"message":"Internal transfers are not yet available for specified toBlock = latest. Please try again later or specify an earlier toBlock. Or exclude internal transfers from the list of asset categories if they are not needed."}}
