@@ -1,1 +1,9 @@
-{"id":0,"jsonrpc":"2.0","error":{"code":-32603,"message":"Internal transfers are not yet available for specified toBlock = latest. Please try again later or specify an earlier toBlock. Or exclude internal transfers from the list of asset categories if they are not needed."}}
+{"id":0,"result":{"transfers":
+    [
+        {"blockNum":"0xb443","hash":"0x5c504ed432cb51138bcf09aa5e8a410dd4a1e204ef84bfed1be16dfba1b22060","from":"0xa1e4380a3b1f749673e270229993ee55f35663b4","to":"0x5df9b87991262f6ba471f09758cde1c0fc1de734","value":3.1337E-14,"erc721TokenId":null,"erc1155Metadata":null,"tokenId":null,"asset":"ETH","category":"external","rawContract":{"value":"0x7a69","address":null,"decimal":"0x12"}},
+        {"blockNum":"0xb459","hash":"0x19f1df2c7ee6b464720ad28e903aeda1a5ad8780afc22f0b960827bd4fcf656d","from":"0xbd08e0cddec097db7901ea819a3d1fd9de8951a2","to":"0x5c12a8e43faf884521c2454f39560e6c265a68c8","value":19.9,"erc721TokenId":null,"erc1155Metadata":null,"tokenId":null,"asset":"ETH","category":"external","rawContract":{"value":"0x1142b0090b6460000","address":null,"decimal":"0x12"}},
+        {"blockNum":"0xb45a","hash":"0x9e6e19637bb625a8ff3d052b7c2fe57dc78c55a15d258d77c43d5a9c160b0384","from":"0x63ac545c991243fa18aec41d4f6f598e555015dc","to":"0xc93f2250589a6563f5359051c1ea25746549f0d8","value":599.9895,"erc721TokenId":null,"erc1155Metadata":null,"tokenId":null,"asset":"ETH","category":"external","rawContract":{"value":"0x208686e75e903bc000","address":null,"decimal":"0x12"}},
+        {"blockNum":"0xb472","hash":"0xcb9378977089c773c074045b20ede2cdcc3a6ff562f4e64b51b20c5205234525","from":"0x037dd056e7fdbd641db5b6bea2a8780a83fae180","to":"0x7e7ec15a5944e978257ddae0008c2f2ece0a6090","value":100,"erc721TokenId":null,"erc1155Metadata":null,"tokenId":null,"asset":"ETH","category":"external","rawContract":{"value":"0x56bc75e2d63100000", "address":null,"decimal":"0x12"}}
+    ]
+ }
+}

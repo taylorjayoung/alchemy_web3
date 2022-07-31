@@ -1,3 +1,6 @@
+
+const {fs} =  require('./init.js')
+
 async function get_transaction_data(data){
 
     fs.readFile('pls_sac_results.txt', 'utf8', function(err, data){
@@ -17,9 +20,14 @@ async function get_transaction_data(data){
             const to = t.to
             const from = t.from
             console.log(`
-            blockNum: ${blockNum}
-            hash: ${hash}
-            to: ${to}
-            from: ${from}`
-    )
+                blockNum: ${blockNum}
+                hash: ${hash}
+                to: ${to}
+                from: ${from}`
+            )
+        }
+    })
 }
+
+
+get_transaction_data()
